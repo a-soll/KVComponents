@@ -1,0 +1,12 @@
+Checks: '
+clang-analyzer-core.uninitialized-*,
+performance-*,
+bugprone-*,
+cppcoreguidelines-c-copy-assignment-signature,
+misc-unconventional-assign-operator,
+-cppcoreguidelines-pro-bounds-array-to-pointer-decay,
+-cppcoreguidelines-owning-memory,
+-cppcoreguidelines-*,
+-bugprone-easily-swappable-parameters,
+-bugprone-empty-catch
+'
